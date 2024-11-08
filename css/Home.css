@@ -1,0 +1,91 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border: 1px solid blue;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: black;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+.logo {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.hero-section {
+    /* height: 100vh; */
+    height: calc(100vh - 60px);
+    padding: 0 80px;
+    background-color: aliceblue;
+    display: flex;
+}
+.left-hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid purple; */
+    height: inherit;
+    width: 50%;
+    
+}
+.right-hero-section {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 60px;
+}
+.hero-text > span {
+    color: green;
+}
+
+.hero-content {
+    margin: 15px 0;
+    color: rgb(110, 99, 99);
+}
+
+.hero-btn {
+    border: 1px solid;
+    background-color: green;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
