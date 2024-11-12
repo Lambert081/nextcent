@@ -45,7 +45,7 @@ ul {
 .hero-section {
     /* height: 100vh; */
     height: calc(100vh - 60px);
-    padding: 0 80px;
+    padding: 20px 80px;
     background-color: aliceblue;
     display: flex;
 }
