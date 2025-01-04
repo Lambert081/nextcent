@@ -6,12 +6,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 60px;
-    /* border: 1px solid blue; */
+    width: 100%;
+    height: 84px;
+    background-color: #F5F7FA;
 }
 
 ul {
@@ -29,63 +34,133 @@ ul {
     color: black;
 }
 
-.btn {
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: green;
-    color: white;
-}
-
 .logo {
     color: black;
     font-size: 35px;
     font-weight: 600;
 }
 
-.hero-section {
-    /* height: 100vh; */
-    height: calc(100vh - 60px);
-    padding: 20px 80px;
-    background-color: aliceblue;
+.login-layout{
     display: flex;
+    width: 184px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.login {
+    display: flex;
+    width: 77px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    gap: 10px;
+    background-color: #F5F7FA;
+    font: inter;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    color: #4CAF4F;
+}
+
+.sign-up {
+    display: flex;
+    width: 91px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    left: 20px;
+    gap: 10px;
+    background-color: #4CAF4F;
+    font: inter;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px);
+    padding: 96px 144px;
+    background-color: #F5F7FA;
+    display: flex;
+    gap: 104px;
 }
 .left-hero-section {
     display: flex;
+    width: 657px;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid purple; */
-    height: inherit;
-    width: 50%;
-    
+    height: 276px;
 }
-.right-hero-section {
-    width: 70%;
+
+.text {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    width: 657px;
+    height: 192px;
+    gap: 16px;
 }
 
 .hero-text {
-    font-size: 60px;
+    width: 657px;
+    height: 152px;
+    font: inter;
+    font-weight: 600px;
+    font-size: 64px;
+    line-height: 76px;
 }
 .hero-text > span {
+    font: inter;
+    font-weight: 600px;
+    font-size: 64px;
+    line-height: 76px;
     color: green;
 }
 
 .hero-content {
-    margin: 15px 0;
-    color: rgb(110, 99, 99);
+    display: flex;
+    width: 657px;
+    height: 24px;
+    font: inter;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
 }
 
 .hero-btn {
+    display: flex;
     border: 1px solid;
     background-color: green;
-    width: 200px;
-    height: 45px;
-    font-size: 25px;
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 32px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    border-radius: 8px;
     cursor: pointer;
+    margin-top: 30px;
 }
+
+.reg {
+    font: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: white;
+}
+
+.right-hero-section {
+    display: flex;
+    width: 391px;
+    height: 407px;
+    justify-content: center;
+    align-items: center;
+}
+

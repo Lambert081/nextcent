@@ -6,50 +6,156 @@
     box-sizing: border-box;
 }
 
+.client-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 190px;
+    padding: 0 144px;
+    gap: 16px;
+}
+
+.client-layout {
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    height: 76px;
+    gap: 8px;
+    margin: 0 auto;
+}
+
 .client {
     display: flex;
+    width: 1110px;
+    height: 44px;
+    font: inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
     justify-content: center;
      
 }
 .p-text {
     display: flex;
+    width: 1110px;
+    height: 24px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    color: #717171;
 }
 .img {
-display: flex;
-justify-content: space-between;
-padding: 0px 80px;
-margin-top: 30px;
+    display: flex;
+    width: 1152px;
+    height: 98px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.community-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 416px;
+    gap: 16px;
+}
+
+.community-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    gap: 8px;
 }
 
 .community-text {
-    /* border: 1px solid red; */
     display: flex;
+    width: 542px;
+    height: 88px;
+    font: inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 50px;
+    margin: 0 auto;
 }
 
 .com-text {
     display: flex;
+    width: 100%;
+    height: 24px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     justify-content: center;
-    margin-top: 10px;
+    align-items: center;
+    color: #717171;
 }
 .container {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    width: 100%;
+    height: 280px;
+    justify-content: space-between;
+    padding: 0 144px;
 }
 .section-container {
-    /* border: 1px solid blue; */
-     text-align: center;
-     width: 200px;
-     margin: 0px 80px;
-     box-shadow: 2px 1px 2px;
-     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+    height: 260px;
+    padding: 24px 32px;
+    text-align: center;
+    box-shadow: 2px 1px 2px;
+    border-radius: 8px;
+    gap: 8px;
 }
 
+.member {
+    display: flex;
+    flex-direction: column;
+    width: 267px;
+    height: 144px;
+    gap: 16px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.icon {
+    margin: 0 auto;
+}
+
+.club-text{
+    display: flex;
+    width: 267px;
+    height: 72px;
+    font: inter;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+.our {
+    display: flex;
+    width: 251px;
+    height: 60px;
+    font: inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #717171;
+}
 .unseen-section {
     /* border: 1px solid red; */
     display: flex;
