@@ -7,16 +7,16 @@
 }
 
 .design {
-    /* border: 1px solid green; */
     display: flex;
-    padding: 20px 80px;;
-     justify-content: center;
+    width: 100%;
+    height: 433.4px;
+    justify-content: space-between;
+    padding: 0 144px;
 }
 .left-design {
-    /* border: 1px solid blueviolet; */
     display: flex;
-    justify-content: center;
-    margin-right: 40px;
+    width: 441.53px;
+    height: 433.4px;
 }
 
 .right-design {
